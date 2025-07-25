@@ -1,9 +1,7 @@
 <?php
 // Database configuration
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', 'root');
-define('DB_NAME', 'usermis');
+define('DB_TYPE', 'sqlite');
+define('DB_PATH', __DIR__ . '/../database/usermis.db');
 
 // Site configuration
 define('SITE_NAME', 'User Management System');
